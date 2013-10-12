@@ -43,7 +43,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Moo" : "1.003001",
+            "Class::Accessor::Lite" : "0",
             "perl" : "5.008005"
          }
       },
@@ -56,10 +56,7 @@
    "provides" : {
       "Router::Boom" : {
          "file" : "lib/Router/Boom.pm",
-         "version" : "0.03"
-      },
-      "Router::Boom::Compiled" : {
-         "file" : "lib/Router/Boom/Compiled.pm"
+         "version" : "0.04"
       },
       "Router::Boom::Node" : {
          "file" : "lib/Router/Boom/Node.pm"
@@ -76,7 +73,7 @@
          "web" : "https://github.com/tokuhirom/Router-Boom"
       }
    },
-   "version" : "0.03",
+   "version" : "0.04",
    "x_contributors" : [
       "Fuji, Goro <goro-fuji@cookpad.com>"
    ]

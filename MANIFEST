@@ -6,7 +6,6 @@ README.md
 author/benchmark.pl
 cpanfile
 lib/Router/Boom.pm
-lib/Router/Boom/Compiled.pm
 lib/Router/Boom/Node.pm
 t/00_compile.t
 t/01_simple.t
