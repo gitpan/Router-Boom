@@ -56,7 +56,7 @@
    "provides" : {
       "Router::Boom" : {
          "file" : "lib/Router/Boom.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       },
       "Router::Boom::Compiled" : {
          "file" : "lib/Router/Boom/Compiled.pm"
@@ -76,5 +76,5 @@
          "web" : "https://github.com/tokuhirom/Router-Boom"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
