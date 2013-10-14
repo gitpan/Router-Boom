@@ -1,5 +1,10 @@
 Revision history for Perl extension Router-Boom
 
+0.05 2013-10-14T00:04:37Z
+
+    - Fixed deps
+      (syohex)
+
 0.04 2013-10-12T03:08:23Z
 
     - no Moo; use Class::Accessor::Lite;
