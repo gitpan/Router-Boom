@@ -56,7 +56,11 @@
    "provides" : {
       "Router::Boom" : {
          "file" : "lib/Router/Boom.pm",
-         "version" : "0.05"
+         "version" : "0.06"
+      },
+      "Router::Boom::Method" : {
+         "file" : "lib/Router/Boom/Method.pm",
+         "version" : "0.06"
       },
       "Router::Boom::Node" : {
          "file" : "lib/Router/Boom/Node.pm"
@@ -73,7 +77,7 @@
          "web" : "https://github.com/tokuhirom/Router-Boom"
       }
    },
-   "version" : "0.05",
+   "version" : "0.06",
    "x_contributors" : [
       "Fuji, Goro <goro-fuji@cookpad.com>",
       "Syohei YOSHIDA <syohex@gmail.com>"
