@@ -1,5 +1,5 @@
 ---
-abstract: 'O(1) Routing engine for web applications'
+abstract: 'Fast routing engine for web applications'
 author:
   - 'tokuhirom <tokuhirom@gmail.com>'
 build_requires:
@@ -9,7 +9,7 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Minilla/v0.7.5, CPAN::Meta::Converter version 2.132510'
+generated_by: 'Minilla/v0.11.0, CPAN::Meta::Converter version 2.132830'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -28,10 +28,10 @@ no_index:
 provides:
   Router::Boom:
     file: lib/Router/Boom.pm
-    version: 0.07
+    version: 1.00
   Router::Boom::Method:
     file: lib/Router/Boom/Method.pm
-    version: 0.07
+    version: 1.00
   Router::Boom::Node:
     file: lib/Router/Boom/Node.pm
 requires:
@@ -41,7 +41,7 @@ resources:
   bugtracker: https://github.com/tokuhirom/Router-Boom/issues
   homepage: https://github.com/tokuhirom/Router-Boom
   repository: git://github.com/tokuhirom/Router-Boom.git
-version: 0.07
+version: 1.00
 x_contributors:
   - 'Fuji, Goro <goro-fuji@cookpad.com>'
   - 'Syohei YOSHIDA <syohex@gmail.com>'
